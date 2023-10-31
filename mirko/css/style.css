@@ -53,9 +53,11 @@ h4 {
 	padding: 0;
 }
 
+
 a {
 	color: white;
 	text-decoration: none;
+	/* muda a letra */
 }
 
 li {
@@ -103,13 +105,6 @@ li {
 .location .far,
 .location .fas {
 	padding: 15px 0;
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#0ee951),
-		to(#00dabf)
-	);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -260,7 +255,7 @@ li {
 /*     Home     */
 /****************/
 .home {
-	background-image: url(../assets/images/home.jpg);
+	background-image: url(../assets/images/home.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
